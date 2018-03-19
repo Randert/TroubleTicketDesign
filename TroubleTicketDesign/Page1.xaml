@@ -1,0 +1,22 @@
+﻿<Page x:Class="TroubleTicketDesign.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TroubleTicketDesign"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Page1">
+
+    <Grid>
+        <Grid Margin="0,0,8,30">
+            <Button Content="Create Cherwell Ticket" HorizontalAlignment="Left" Margin="92,211,0,0" VerticalAlignment="Top" Width="129" Height="29"/>
+            <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="131,76,0,0"/>
+            <Button Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="21" Click="Button_Click"/>
+            <Button Content="Take Screenshot" HorizontalAlignment="Left" Margin="92,177,0,0" VerticalAlignment="Top" Width="129" Height="29" Click="Button_Screenshot_Click"/>
+            <Label Content="Workstation:" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="26" Margin="92,98,0,0" Stroke="Black" VerticalAlignment="Top" Width="135"/>
+
+        </Grid>
+    </Grid>
+</Page>
